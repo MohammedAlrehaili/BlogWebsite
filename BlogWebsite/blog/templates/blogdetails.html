@@ -1,0 +1,11 @@
+{% extends "master.html" %}
+{% block title %}
+ Details about {{ myblogs.Title }}
+{% endblock %}
+{% block content %}
+ <h1>{{ myblogs.Title }}</h1>
+ <p>Content: {{ myblogs.Content }}</p>
+ <p>Category: {{ myblogs.Category }}</p>
+ <p>Date Published: {{ myblogs.DatePublished }}</p>
+ <p>Back to <a href="/">HOME</a></p>
+{% endblock %}

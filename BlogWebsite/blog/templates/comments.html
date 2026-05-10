@@ -1,0 +1,13 @@
+{% extends "master.html" %}
+{% block title %}
+ BlogWebsite - List of all Comments
+{% endblock %}
+{% block content %}
+<p><a href="/">HOME</a></p>
+<h1>Comments:</h1>
+<ul>
+    {% for x in mycomments %}
+        <li> Comment: {{x.Content}} | PostID: {{x.PostID_id}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
