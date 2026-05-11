@@ -90,4 +90,4 @@ Then open your browser and go to: `http://127.0.0.1:8000/`
 
 ## 🎓 Course Info
 
-This project was developed as part of the course:
+This project was developed as part of the **"Building an API Using Django"** course
